@@ -1,0 +1,45 @@
+/* sphinxcontrib-coderun: codapi snippet widget styling */
+
+codapi-snippet {
+    display: block;
+    margin-top: 0.75rem;
+    margin-bottom: 1.5rem;
+}
+
+codapi-snippet .codapi-toolbar {
+    display: flex;
+    gap: 0.5rem;
+    padding: 0.5rem 0.75rem;
+    background: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+codapi-snippet .codapi-toolbar button {
+    font-size: 0.8rem;
+    padding: 0.2rem 0.75rem;
+    cursor: pointer;
+    border: 1px solid #bbb;
+    border-radius: 3px;
+    background: #fff;
+}
+
+codapi-snippet .codapi-toolbar button:hover {
+    background: #e8e8e8;
+}
+
+codapi-snippet .codapi-output {
+    margin-top: 0.5rem;
+    padding: 0.75rem;
+    background: #1e1e1e;
+    color: #d4d4d4;
+    font-family: monospace;
+    font-size: 0.875rem;
+    border-radius: 4px;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+codapi-snippet .codapi-output.error {
+    color: #f44747;
+}
