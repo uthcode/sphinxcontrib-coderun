@@ -7,7 +7,7 @@ instance — you bring your own server, this extension wires it into Sphinx.
 ## How it works
 
 1. You self-host a [codeapi](https://github.com/nalgeon/codapi) server (supports C,
-   Python, Go, Rust, and [many more](https://github.com/nalgeon/codapi/tree/main/sandboxes)).
+   Python, Go, Rust, and [many more](https://github.com/nalgeon/sandboxes)).
 2. You add `.. coderun::` directives to your `.rst` files.
 3. When a reader clicks **Run**, the code is sent to your codeapi server, executed in
    an isolated sandbox, and the output appears inline on the page.
