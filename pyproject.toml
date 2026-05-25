@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "sphinxcontrib-coderun"
-version = "0.1.0"
+version = "0.1.1"
 description = "Sphinx directive that adds an interactive Run button to code files via a self-hosted codeapi instance"
 readme = "README.md"
 license = { text = "MIT" }
